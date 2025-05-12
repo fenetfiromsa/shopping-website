@@ -1,0 +1,67 @@
+.thetwo{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 40px;
+}
+.thecontact{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.theimgp{
+  
+  display: flex;
+  flex-direction: row;
+}
+.theimgp img{
+  background-color: rgb(245, 156, 97);
+}
+.theimgp p{
+  font-size: larger;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+
+
+
+.theform{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  margin-right: 50px;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: bold;
+  
+}
+.theform input{
+  background-color: rgb(250, 226, 210);
+  padding: 10px;
+  margin-top: 10px;
+  width: 600px;
+}
+.theform .thehalf{
+  padding: 10px;
+}
+
+.thehalf textarea{
+  width: 600px;
+  background-color: rgb(250, 224, 211);
+  height: 100px;
+  margin-top: 10px;
+}
+
+.thebutton button{
+  width:600px ;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #d45207;
+  border-color: #d45207;
+}

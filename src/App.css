@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,300;1,500;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(5deg,#e7d8c0, #d45207);
+  
+}
+.App h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  padding-right: 200px;
+  padding-left: 20px;
+  color: black;
+}
+.App ul{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 30px;
+}
+.App .links{
+ list-style: none;
+ color: #110e09;
+ text-decoration: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App Link.active{
+ border-bottom: 4px solid black;
+}
+
+.App li{
+  list-style: none;
+  font-size: larger;
+  color: rgb(231, 9, 20);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.App img{
+  width: 30px;
+  height: 30px;
+  margin-left: 70px;
+  margin-right: 5px;
+  background-color: #d45207;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
